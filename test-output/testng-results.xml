@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting of loading URL]]>
+    </line>
+    <line>
+      <![CDATA[Loading URL is successful]]>
+    </line>
+    <line>
+      <![CDATA[Starting of login]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21156" started-at="2019-10-27T12:31:03Z" finished-at="2019-10-27T12:31:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21156" started-at="2019-10-27T12:31:03Z" finished-at="2019-10-27T12:31:25Z">
+      <class name="UnhappyFlow.Login">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:UnhappyFlow.Login@7d9d1a19]" name="setupBrowser" is-config="true" duration-ms="5188" started-at="2019-10-27T18:01:03Z" finished-at="2019-10-27T18:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="loadURL()[pri:0, instance:UnhappyFlow.Login@7d9d1a19]" name="loadURL" duration-ms="10204" started-at="2019-10-27T18:01:09Z" finished-at="2019-10-27T18:01:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting of loading URL]]>
+            </line>
+            <line>
+              <![CDATA[Loading URL is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadURL -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:UnhappyFlow.Login@7d9d1a19]" name="testLogin" duration-ms="5320" started-at="2019-10-27T18:01:19Z" depends-on-methods="UnhappyFlow.Login.loadURL" finished-at="2019-10-27T18:01:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting of login]]>
+            </line>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="endReporting()[pri:0, instance:UnhappyFlow.Login@7d9d1a19]" name="endReporting" is-config="true" duration-ms="420" started-at="2019-10-27T18:01:24Z" finished-at="2019-10-27T18:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReporting -->
+      </class> <!-- UnhappyFlow.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

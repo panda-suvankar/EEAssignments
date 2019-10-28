@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="tests">
+<!--  	<test name="CreateAccount">
+		<classes>
+			<class name="HappyFlow.CreateAccount"></class>
+		</classes>
+	</test>  -->
+	<test name="LoginLogout">
+		<classes>
+			<class name="HappyFlow.LoginLogout"></class>
+		</classes>
+	</test>
+	<test name="AddProductsToCart">
+		<classes>
+			<class name="HappyFlow.AddProductsToCart"></class>
+		</classes>
+	</test>
+		<test name="Login">
+		<classes>
+			<class name="UnhappyFlow.Login"></class>
+		</classes>
+	</test>
+
+</suite>
